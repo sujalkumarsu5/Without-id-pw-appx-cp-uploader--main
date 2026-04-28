@@ -54,7 +54,7 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=2118600611"),
+            InlineKeyboardButton(text="📞 Contact", url="tg://user?id=8532700793"),
             InlineKeyboardButton(text="🔍 Channel", url="https://t.me/skillwithchiru"),
         ],
     ]
@@ -89,7 +89,7 @@ async def start_command(bot: Client, message: Message):
 <blockquote>🌟 <b>Welcome Buddy....! ☠️!</b> 🌟</blockquote><br><br>
 
 /help <b>to know about all the commonds</b> 📄 <br><br>
-<b>Contact Me</b> [🅱🅴🅰🆂🆃 👑](tg://user?id=2118600611)<b>to Get The Subscription</b> 🎫<br>
+<b>Contact Me</b> [🅱🅴🅰🆂🆃 👑](tg://user?id=8532700793)<b>to Get The Subscription</b> 🎫<br>
 """)
     try:
         await asyncio.sleep(1)
@@ -357,7 +357,7 @@ async def guide_handler(client: Client, message: Message):
       "/add_channel : To add New Channel\n"
       "/remove_channel : To remove all the channels\n"
       "/myplan : To check Your Active Membership\n\n"
-      "Contact Me For Premium : [🅱🅴🅰🆂🆃 👑](tg://user?id=2118600611) "
+      "Contact Me For Premium : [🅱🅴🅰🆂🆃 👑](tg://user?id=8532700793) "
     )
     await message.reply_text(guide_text)
 
